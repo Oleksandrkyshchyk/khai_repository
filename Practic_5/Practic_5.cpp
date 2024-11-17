@@ -41,7 +41,7 @@ int main() {
         cout << "Бажаєте виконати ще одне обчислення? (y/n): ";
         cin >> repeat;
 
-    } while (repeat == 'y' || repeat == 'Y');
+    } while (repeat == 'y' || repeat == 'Y'); // повторення введення за бажанням користувача
 
     return 0;
 }
